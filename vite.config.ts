@@ -9,7 +9,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: [
-        '@mui/material/DefaultPropsProvider'
+
       ],
       onwarn(warning, warn) {
         if (warning.code === 'MIXED_EXPORTS') return;
